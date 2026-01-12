@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Provideo Media Store</title>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css" />
+      <link rel="stylesheet" href="light.css" />
+
+
+</head>
+
+<body>
+<header class="header">
+  <div class="navbar-inner">
+    <div class="logo"><img src="/media/logo.png" alt=""></div>
+
+    <div class="navbar-menu-toggle hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="navbar-menu">
+        <div class="close-menu-btn">×</div>
+
+      <ul class="menu">
+        <li><a href="#what-we-do">Projects</a></li>
+        <li><a href="#partners-page">Partners</a></li>
+        <li><a href="#featured-brands">Featured Brands</a></li>
+        <li><a href="#our-news">News</a></li>
+        <li><a href="#about-section">About Us</a></li>
+        <li><a href="#contact-section" class="contact-btn">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- CHAT BUTTONS -->
+<div class="chat-buttons">
+  <button class="chat-btn telegram" id="openTelegram">
+    <img src="media/telegram.png" alt="Telegram" />
+  </button>
+
+  <button class="chat-btn whatsapp" id="openWhatsapp">
+    <img src="media/whatsapp.png" alt="WhatsApp" />
+  </button>
+</div>
+
+<!-- CHAT POPUP -->
+<div id="chatPopup" class="chat-popup">
+  <div class="chat-header">
+    <div class="logos">
+      <img class="logoofstartchat" src="/media/logo.png" alt="ProDiji" />
+    </div>
+    <button id="closePopup">×</button>
+  </div>
+
+  <div class="popup-content">
+    <p>Hi there 👋</p>
+    <p>How can we help you?</p>
+
+    <button id="startChat">Start Chat</button>
+  </div>
+</div>
+
+<!-- SLIDER -->
+<section class="hero-slider">
+  <div class="slides">
+
+    <!-- Slide 1 -->
+    <div class="slide active">
+      <div class="slide-left">
+        <h2 class="brand">SONY</h2>
+        <h1 class="model">α7 V</h1>
+        <p class="tagline">Redefine Basic.</p>
+        <p class="desc">Introducing the 6th generation of the Alpha 7 series</p>
+
+        <ul class="features">
+          <li>35mm Full Frame Exmor RS CMOS Sensor</li>
+          <li>33 MP</li>
+          <li>AI Processing Unit</li>
+        </ul>
+
+        <button class="preorder-btn">Pre Order Now!</button>
+      </div>
+
+      <div class="slide-right">
+        <img src="/media/camera.png" alt="Sony Camera">
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <div class="slide-left">
+        <h2 class="brand">SONY</h2>
+        <h1 class="model">α7 IV</h1>
+        <p class="tagline">New Evolution.</p>
+        <p class="desc">Now better performance and image quality</p>
+
+        <ul class="features">
+          <li>4K 60fps Video</li>
+          <li>33 MP Full Frame</li>
+          <li>Fast Hybrid AF</li>
+        </ul>
+
+        <button class="preorder-btn">Shop Now</button>
+      </div>
+
+      <div class="slide-right">
+        <img src="/media/picture1.jpg" alt="Sony Camera">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slider-dots"></div>
+</section>
+
+
+ <section id="what-we-do">
+  <div class="container">
+    <div class="left">
+      <h2>
+        <span class="bold">Our</span> <span class="outline">Projects</span>
+      </h2>
+      <p>
+        FintalX connects businesses, people, and financial institutions through an
+        integrated ecosystem of services that simplify growth.
+      </p>
+    </div>
+
+    <div class="right">
+      <div class="card active">
+        <h3>LOREM IPSUM</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium
+          facilisi purus lectus. Phasellus ultrices integer curabitur etiam. Pretium est
+          suspendisse donec mattis.
+        </p>
+        <a href="#" class="btn white">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h3>LOREM IPSUM</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium
+          facilisi purus lectus. Phasellus ultrices integer curabitur etiam. Pretium est
+          suspendisse donec mattis.
+        </p>
+        <a href="#" class="btn purple-outline">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="partners-page">
+        <div class="partners-header">
+            <h1>Our Partners</h1>
+            <p>We collaborate with world-class companies to deliver high-quality products and services.</p>
+        </div>
+
+        <div class="partners-grid">
+               <div class="partner-card">
+        <img src="images/sony.png" alt="Sony">
+        <h2>Sony</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/samsung.png" alt="Samsung">
+        <h2>Samsung</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/apple.png" alt="Apple">
+        <h2>Apple</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/google.png" alt="Google">
+        <h2>Google</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/lg.png" alt="LG">
+        <h2>LG</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/panasonic.png" alt="Panasonic">
+        <h2>Panasonic</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/philips.png" alt="Philips">
+        <h2>Philips</h2>
+    </div>
+
+    <div class="partner-card">
+        <img src="images/lenovo.png" alt="Lenovo">
+        <h2>Lenovo</h2>
+    </div>
+  <div class="partner-card">
+        <img src="images/lenovo.png" alt="Lenovo">
+        <h2>Lenovo</h2>
+    </div>
+        </div>
+    </section>
+
+<section id="featured-brands">
+  <div class="container">
+    <h1 class="title">Featured Brands</h1>
+    <p class="subtitle">We collaborate with leading global brands to bring premium quality products.</p>
+
+    <div class="brands-grid">
+
+      <div class="brand-card">
+        <img src="brand1.png" alt="Brand 1">
+      </div>
+
+      <div class="brand-card">
+        <img src="brand2.png" alt="Brand 2">
+      </div>
+
+      <div class="brand-card">
+        <img src="brand3.png" alt="Brand 3">
+      </div>
+
+      <div class="brand-card">
+        <img src="brand4.png" alt="Brand 4">
+      </div>
+
+      <div class="brand-card">
+        <img src="brand5.png" alt="Brand 5">
+      </div>
+
+ 
+
+    </div>
+  </div>
+</section>
+
+<section id="our-news">
+    <div class="our-news-content">
+      <div class="our-news-text">
+       <h2>
+  <div class="line">
+    <span class="solid">OUR</span>
+ 
+  </div>
+  <div class="line">
+       <span class="outlined">LATEST</span>
+    <span class="solid">NEWS</span>
+  </div>
+</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium facilisi purus lectus. 
+          Phasellus ultrices integer curabitur etiam. Pretium est suspendisse donec mattis.
+        </p>
+      </div>
+
+      <div class="news-items">
+
+        <div class="news">
+          <img src="/media/picture1.jpg" alt="Blog 1" />
+          <div class="news-content">
+            <h3>Blog Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium facilisi purus lectus. Phasellus ultrices integer curabitur etiam. Pretium est suspendisse donec mattis.</p>
+            <div class="meta">
+              <span class="date">06.2024</span>
+              <button>Learn More ></button>
+            </div>
+          </div>
+        </div>
+
+            <div class="news">
+          <img src="/media/picture1.jpg" alt="Blog 1" />
+          <div class="news-content">
+            <h3>Blog Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium facilisi purus lectus. Phasellus ultrices integer curabitur etiam. Pretium est suspendisse donec mattis.</p>
+            <div class="meta">
+              <span class="date">06.2024</span>
+              <button>Learn More ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+             <button class="view-more-btn">More News</button>
+ 
+    </div>
+  </section>
+  
+<section id="about-section">
+  <div class="section-inner">
+    <h2 class="section-title">Our Story</h2>  
+    <div class="right">
+                    <div class="service">
+                        <img src="/media/Group2.png" alt="">
+                        <h3>Company Formation</h3>
+                        <p> Founded and based in Armenia, Provideo Media Store has 10 years of experience 
+        servicing the Broadcast and Media industries, offering a wide range of professional 
+        products and solutions.</p>
+                    </div>
+
+                    <div class="service"><img src="/media/Group2.png" alt="">
+                        <h3>Ongoing Business Support</h3>
+                        <p>Our product portfolio includes more than 70 global brands such as Sony, Arri, DJI, Zeiss,
+        Sachtler, Sennheiser, EditShare, Ikegami, LiveU, Blackmagic Design, Canon and many others.</p>
+                    </div>
+
+                    <div class="service"><img src="/media/Group2.png" alt="">
+                        <h3>Corporate Bank Account Opening</h3>
+                        <p> Provideo Media Store also provides complete Systems Integration services — from turnkey 
+        design and integration to consultation and professional support. Whether it’s an 
+        “off-the-shelf” setup or a fully customized system, we deliver solutions built to 
+        improve workflow, productivity, and business performance.</p>
+                    </div>
+
+                    <div class="service"><img src="/media/Group2.png" alt="">
+                        <h3>Visa Services</h3>
+                        <p>   We understand Broadcast. We understand Post-Production. We understand Systems Integration.
+        Our mission is to provide the right solutions and deliver complete end-to-end service 
+        on time and within budget. Customer satisfaction is our highest priority.</p>
+                    </div>
+
+                </div>
+
+   
+</section>
+
+<section class="highlight-section">
+  <div class="highlight-content">
+    <h2>Our Vision</h2>
+    <p>
+      Vision is the foundation of our success. Since our establishment 10 years ago, 
+      Provideo Media Store has seen consistent growth, adapting to evolving industry 
+      trends while maintaining strong commitment to excellence and our customers.
+    </p>
+  </div>
+</section>
+
+     <section class="our-team">
+    <div class="our-team-content">
+      <h2>
+        <span class="outlined">OUR</span>
+        <span class="solid">TEAM</span>
+      </h2>
+      <p class="textofourteam">Lorem ipsum dolor sit amet consectetur. Libero consectetur sagittis pretium facilisi purus lectus. Phasellus ultrices integer curabitur etiam. Pretium est suspendisse donec mattis.</p>
+
+      <div class="team-members">
+            <div class="member">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="Team Member">
+          <div class="overlayy">
+            <p>Name Surname</p>
+            <span>Position</span>
+          </div>
+        </div>
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600" alt="Team Member">
+          <div class="overlayy">
+            <p>Name Surname</p>
+            <span>Position</span>
+          </div>
+        </div>
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600" alt="Team Member">
+          <div class="overlayy">
+            <p>Name Surname</p>
+            <span>Position</span>
+          </div>
+                  </div>
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600" alt="Team Member">
+          <div class="overlayy">
+            <p>Name Surname</p>
+            <span>Position</span>
+          </div>
+        
+        </div>
+      </div>
+
+      <button class="more-btn">More</button>
+    </div>
+  </section>
+ <section class="functions">
+        <div class="functions-inner">
+            <h2>Feel the best experiance with our functions</h2>
+            <div class="functions-wrapper">
+                <div class="card-2">
+                    <figure><img src="media/camera.png" alt="camera"></figure>
+                    <h3>Showroom</h3>
+                    <span> Located at Gyulbenkyan 30/3, Arabkir, our showroom offers a full hands-on 
+          experience with dedicated product zones. Free parking, Wi-Fi, and refreshments 
+          reflect our customer-first philosophy.</span>
+                </div>
+                <div class="card-1">
+                    <figure><img src="/media/camera.png" alt="camera"></figure>
+                    <h3>Service Center</h3>
+                    <span>      Our technical team services all systems in our portfolio. From diagnostics 
+          to on-site training, we support customers throughout the entire workflow.</span>
+                </div>
+                <div class="card-2">
+                   <figure><img src="/media/camera.png" alt="camera"></figure>
+        <h3>Distribution Center</h3>
+                    <span>  With streamlined logistics and reliable access to international brands, 
+          we ensure our clients receive professional equipment quickly and efficiently.</span>
+                </div>
+              
+
+            </div>
+        </div>
+    </section>
+  <section id="contact-section">
+  <div class="contact-bg"></div>
+
+  <div class="contact-content">
+    <h2>CONTACT US</h2>
+
+    <p>
+      “You can send us your questions about camera models or products, and we’ll get back to you soon!”
+      <br><br>
+      «Դուք կարող եք ուղարկել ձեր հարցերը տեսախցիկների վերաբերյալ, և մենք շուտով կապ կհաստատենք ձեզ հետ»: 
+    </p>
+
+    <form class="contact-form">
+      <label>Full Name*</label>
+      <input type="text" placeholder="Type your Name" required />
+
+      <label>Phone Number*</label>
+      <input type="tel" placeholder="Write your phone number" required />
+
+      <label>Email Address*</label>
+      <input type="email" placeholder="Example@email.com" required />
+
+      <label>Message*</label>
+      <textarea placeholder="Write your message here" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="contact-footer">
+
+    <div class="footer-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <div>
+        <p>Business address</p>
+        <span>Gyulbenkyan 30/3, Floor 2, Office 128<br/> Komitas, Yerevan, Armenia</span>
+      </div>
+    </div>
+
+    <div class="footer-item">
+      <i class="fa-solid fa-envelope"></i>
+      <div>
+        <p>Email address</p>
+        <span>info@prodigit.am</span>
+      </div>
+    </div>
+
+    <div class="footer-item">
+      <i class="fa-solid fa-phone"></i>
+      <div>
+        <p>Phone number</p>
+        <span>+374 41093424</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
